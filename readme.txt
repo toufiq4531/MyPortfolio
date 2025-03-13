@@ -2,7 +2,7 @@
 
 DESCRIPTION:
 
-LUTHER is a modern, stylish, free personal website template designed for creative individuals 
+This is a modern, stylish, free personal website template designed for creative individuals 
 and professionals. It is the perfect template if you wish to build an online presence and create 
 a strong first impression on all your site visitors. Luther will help you craft a personal 
 professional website wherein you can showcase your works, talents, and present yourself on the 
