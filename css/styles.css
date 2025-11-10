@@ -4294,8 +4294,11 @@ img.u-pull-left {
     background-color: var(--color-gray-9);
 }
 
-.main-nav li:hover .dropdown-content {
-    display: block;
+/* Show dropdown on hover */
+@media screen and (min-width: 801px) {
+    .main-nav li:hover .dropdown-content {
+        display: block;
+    }
 }
 
 /* Mobile Dropdown */
