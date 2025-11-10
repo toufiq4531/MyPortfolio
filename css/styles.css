@@ -2978,7 +2978,8 @@ img.u-pull-left {
 }
 
 .main-nav a {
-    padding : 0 2rem 0 2.4rem;
+    padding : 0 1.6rem;
+    display: block;
 }
 
 .main-nav .current a {
