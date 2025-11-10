@@ -4490,3 +4490,75 @@ img.u-pull-left {
         padding-right: var(--vspace-1);
     }
 }
+
+
+/* ===================================================================
+ * # EXTRACURRICULAR SECTIONS
+ *
+ *
+ * ------------------------------------------------------------------- */
+
+/* Extracurricular Sections */
+.s-ec-section {
+    padding-top: var(--vspace-4);
+    padding-bottom: var(--vspace-3);
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.s-ec-section .row {
+    width: 100%;
+    max-width: var(--width-wide);
+}
+
+.section-title {
+    font-family: var(--font-2);
+    font-size: var(--text-xxxl);
+    color: var(--color-text-dark);
+    margin-bottom: var(--vspace-1_5);
+    line-height: var(--vspace-1_25);
+}
+
+.ec-content {
+    font-size: var(--text-md);
+    line-height: var(--vspace-1_25);
+    max-width: 800px;
+    color: var(--color-text);
+}
+
+.ec-content p {
+    margin-bottom: 0;
+}
+
+/* Responsive for extracurricular sections */
+@media screen and (max-width: 800px) {
+    .s-ec-section {
+        min-height: 50vh;
+        padding-top: var(--vspace-3);
+        padding-bottom: var(--vspace-2_5);
+    }
+
+    .section-title {
+        font-size: var(--text-xxl);
+        margin-bottom: var(--vspace-1_25);
+    }
+
+    .ec-content {
+        font-size: var(--text-sm);
+        line-height: var(--vspace-1);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .s-ec-section {
+        min-height: 40vh;
+        padding-top: var(--vspace-2_5);
+        padding-bottom: var(--vspace-2);
+    }
+
+    .section-title {
+        font-size: var(--text-xl);
+        margin-bottom: var(--vspace-1);
+    }
+}
