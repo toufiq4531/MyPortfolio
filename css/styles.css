@@ -4265,6 +4265,7 @@ img.u-pull-left {
     z-index: 1000;
     left: 0;
     top: 100%;
+    transform: translateY(0);
 }
 
 .dropdown-content li {
