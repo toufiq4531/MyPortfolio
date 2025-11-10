@@ -2998,9 +2998,11 @@ img.u-pull-left {
 }
 
 .main-nav li {
-    flex         : 1 1 0%;
+    flex         : none;
     padding-left : 0;
+    padding-right: 0;
     border-right : 1px solid var(--color-border);
+    white-space  : nowrap;
 }
 
 .main-nav li:last-child {
