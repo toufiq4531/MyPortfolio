@@ -3579,17 +3579,17 @@ img.u-pull-left {
 
 
 /* ===================================================================
- * # WORKS
+ * # PROJECTS
  *
  *
  * ------------------------------------------------------------------- */
 
-.s-works {
+.s-projects {
     padding-top    : var(--vspace-5);
     padding-bottom : var(--vspace-3_5);
 }
 
-.s-works .h1 {
+.s-projects .h1 {
     margin-top : 0;
 }
 
